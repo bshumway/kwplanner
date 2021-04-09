@@ -5,7 +5,7 @@ Keyword planner using Google Adwords API
 ## How to use
 1) Clone the repo
 ```
-git clone git@github.com:iamaris/kwplanner.git
+git clone git@github.com:bshumway/kwplanner.git
 ```
 
 2) Install the required packages
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 4) Run the program. For example, you want to check the __US__ volume estimates of the __English__ keywords in a file named __keywords.txt__ and located in your home directory. This also assumes that you did step 3.
 ```
-python kwplanner -country_code US -language English -keyword_file ~/keywords.txt 
+python3 kwplanner -country_code US -language English -keyword_file ~/keywords.txt 
 ```
 
 The result will be saved inside the ```kwplanner``` folder.
